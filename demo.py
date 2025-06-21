@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
-mcp = FastMCP("Demo")
+mcp = FastMCP("Demo",  port=8001)
 
 
 # Add an addition tool
